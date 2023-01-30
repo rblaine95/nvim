@@ -2,6 +2,7 @@ return {
   "neovim/nvim-lspconfig",
   event = "BufReadPre",
   dependencies = {
+    { "jvirtanen/vim-hcl" },
     { "folke/neoconf.nvim", cmd = "Neoconf", config = true },
     { "folke/neodev.nvim", opts = { experimental = { pathStrict = true } } },
     "mason.nvim",
